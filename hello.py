@@ -1,5 +1,5 @@
-#variables types
-x = 5
-y = "Badsha"
+#Multiple variables
 
-print(type(y))
+x, y, z = 10, 11, 12
+
+print(y)
