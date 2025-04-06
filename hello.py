@@ -1,6 +1,5 @@
-#variables
+#variables types
 x = 5
 y = "Badsha"
 
-print(x)
-print(y)
+print(type(y))
