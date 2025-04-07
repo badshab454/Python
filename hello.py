@@ -1,5 +1,19 @@
-#Multiple variables
+# #Output variables
 
-x, y, z = 10, 11, 12
+# x = "Python is awesome"
+# print(x)
 
-print(y)
+# a = "Python"
+# b = "is"
+# c = "awesome"
+
+# print(a + b + c)
+
+# f = 5
+# s = "string"
+
+# print(f + s)
+
+f = 5
+s = "string"
+print(f, s)
