@@ -16,8 +16,6 @@ price_per_item = 12.00
 quantity = 7
 # --- End of Setup Code ---
 
-# Print the student_name and student_id on the same line, separated by a space (use the comma method in print).
-# Print the sentence: "Course: Introduction to Python" using the course variable and literal text. Use the comma method in print.
 # Using string concatenation (+ operator), print the sentence: "Student ID: 9876". Remember to convert the number if necessary.
 # Using string concatenation (+ operator), print the sentence: "Charlie is taking Introduction to Python". Use the student_name and course variables.
 # Using an f-string, print the sentence: "Student Charlie is active: True". Use the student_name and is_active variables.
@@ -30,6 +28,18 @@ quantity = 7
 
 # exercise 2 Print the value stored in the grade variable.
 
-print(grade)
+# print(grade)
+
+# exercise 3 Print the student_name and student_id on the same line, separated by a space (use the comma method in print).
+
+# print(student_name, student_id)
+
+# exercise 4 Print the sentence: "Course: Introduction to Python" using the course variable and literal text. Use the comma method in print.
+
+print("Course:", course)
+
+
+
+
 
 
