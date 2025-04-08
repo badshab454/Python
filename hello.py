@@ -1,11 +1,5 @@
-#python global variables
+#python strings
 
-x = "awesome"
-
-def myfunc():
-    x = "fantastic"
-    print("Python is " + x)
-
-myfunc()
-
-print("Python is " + x)
+print("It's alright")
+print("He is called 'Johnny' ")
+print('He is called "Johnny"')
