@@ -1,5 +1,5 @@
 #python strings
 
-print("It's alright")
-print("He is called 'Johnny' ")
-print('He is called "Johnny"')
+txt = "The best things in life are free"
+
+print("free" in txt)
