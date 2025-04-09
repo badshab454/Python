@@ -1,5 +1,3 @@
-#python strings
-
-txt = "The best things in life are free"
-
-print("free" in txt)
+#python strings slicing
+b = "Hello, Fucker!"
+print(b[1: 3])
