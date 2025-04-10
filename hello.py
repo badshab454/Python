@@ -1,3 +1,3 @@
-#python strings slicing
-b = "Hello, Fucker!"
-print(b[1: 3])
+#python boolean values
+
+print(10 > 9)
