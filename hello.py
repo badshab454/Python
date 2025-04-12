@@ -1,5 +1,5 @@
 #python lists
 
-fruitlist = ["apple", "banana", "cherry"]
+thislist = list(("apple", "banana", "cherr"))
 
-print(len(fruitlist))
+print(thislist)
