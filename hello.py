@@ -1,9 +1,5 @@
-#python boolean values
+#python lists
 
-a = 200
-b = 33
+fruitlist = ["apple", "banana", "cherry"]
 
-if b > a:
-    print("b is greater than a")
-else:
-    print("b is not greater than a")
+print(len(fruitlist))
