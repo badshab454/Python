@@ -1,5 +1,5 @@
-#python lists
+#python remove list items
 
-thislist = list(("apple", "banana", "cherr"))
-
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
 print(thislist)
