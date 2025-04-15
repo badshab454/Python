@@ -1,13 +1,9 @@
-#python list comprehension
+#python sort lists
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+num = [12, 3, 2, 15, 1]
 
-newlist = []
+num.reverse()
 
-for x in fruits:
-    if "n" in x:
-        newlist.append(x)
-
-print(newlist)
+print(num)
 
 
