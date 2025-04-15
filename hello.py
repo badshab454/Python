@@ -1,5 +1,5 @@
-#python remove list items
+#python loop list
 
 thislist = ["apple", "banana", "cherry"]
-thislist.pop()
-print(thislist)
+for i in range(len(thislist)):
+    print(thislist[i])
