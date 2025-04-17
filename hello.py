@@ -1,9 +1,7 @@
-#python sort lists
+#python remove set items
 
-num = [12, 3, 2, 15, 1]
+thisset = {"apple", "banana", "cherry"}
 
-num.reverse()
+thisset.remove("banana")
 
-print(num)
-
-
+print(thisset)
