@@ -1,7 +1,6 @@
-#python remove set items
+#python remove loop sets
 
 thisset = {"apple", "banana", "cherry"}
 
-thisset.remove("banana")
-
-print(thisset)
+for x in thisset:
+    print(x)
