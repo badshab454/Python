@@ -1,11 +1,6 @@
-#python // change dictionariy
+#python // if else
 
-car = {
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 1964
-}
-
-car.update({"color": "red"})
-print(car)
+a = 39
+b = 33
+if a > b: print("a is greater than b")
 
