@@ -1,9 +1,11 @@
-#python dictionariy
+#python // change dictionariy
 
-thisdict = {
+car = {
     "brand": "Ford",
     "model": "Mustang",
     "year": 1964
 }
 
-print(thisdict)
+car.update({"color": "red"})
+print(car)
+
