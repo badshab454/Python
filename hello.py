@@ -1,6 +1,18 @@
-#python // if else
+#python // match
 
-a = 39
-b = 33
-if a > b: print("a is greater than b")
-
+day = 2
+match day:
+    case 1:
+        print("Saturday")
+    case 2:
+        print("Sunday")
+    case 3:
+        print("Monday")
+    case 4:
+        print("Tuesday")
+    case 5:
+        print("Wednesday")
+    case 6:
+        print("Thursday")
+    case 7:
+        print("Friday")
