@@ -1,8 +1,9 @@
 #python // if else
 
-a = 11
-b = 12
-
-if a < b:
-    print("a is smaller than b")
+i = 1
+while i < 6: 
+    print(i)
+    if i == 3:
+        break
+    i += 1
 
