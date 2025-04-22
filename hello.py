@@ -1,8 +1,6 @@
-#python // while loop
+#python // Function
 
-i = 0
-while i < 6: 
-    i += 1
-    if i == 3:
-        continue
-    print(i)
+def my_function():
+    print("Hello from a function")
+
+my_function()
