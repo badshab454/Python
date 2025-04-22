@@ -1,5 +1,6 @@
-#python // python array
+#python // array loops
 
-car = ["Ford", "Volvo", "BMW"]
+cars = ["Ford", "Volvo", "BMW"]
 
-print(len(car))
+for x in cars:
+    print(x)
