@@ -1,6 +1,6 @@
 #python // Function
 
-def my_function():
-    print("Hello from a function")
+def my_function(*, x):
+    print(x)
 
-my_function()
+my_function(x = 3)
