@@ -1,6 +1,5 @@
-#python // Function
+#python // python lambda
 
-def my_function(*, x):
-    print(x)
+car = ["Ford", "Volvo", "BMW"]
 
-my_function(x = 3)
+print(car[0])
