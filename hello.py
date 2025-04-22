@@ -1,5 +1,5 @@
-#python // python lambda
+#python // python array
 
 car = ["Ford", "Volvo", "BMW"]
 
-print(car[0])
+print(len(car))
