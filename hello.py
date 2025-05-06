@@ -1,6 +1,7 @@
-#python // array loops
+#python // 
+#check if it's a Title String
 
-cars = ["Ford", "Volvo", "BMW"]
+def parse_list(lst):
+  return lst
 
-for x in cars:
-    print(x)
+print(["1", "abc"])
