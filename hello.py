@@ -1,7 +1,9 @@
 #python // 
-#check if it's a Title String
+#check incensitive string comparison
 
-def parse_list(lst):
-  return lst
+def match(s1):
+  s2 = s1.upper()
 
-print(["1", "abc"])
+  return s2
+
+print(match("hello"))
