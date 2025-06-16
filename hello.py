@@ -1,7 +1,7 @@
 #python // 
 #for loop
+#print numbers from 1 to 100
 
-nums = [10, 20, 30, 40]
+for i in range(1, 101, 1):
+    print(i)
 
-for val in nums:
-    print(val)
