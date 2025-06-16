@@ -1,6 +1,6 @@
 #python // 
 #for loop
-#print numbers from 100 to 1
+#print table of a number
 
-for i in range(100, 0, -1):
-    print(i)
+for i in range(1, 11, 1):
+    print(i * 3)
