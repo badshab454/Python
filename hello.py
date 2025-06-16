@@ -1,16 +1,7 @@
 #python // 
-#hacker speak
+#for loop
 
-def hacker_speak(txt):
-    replacements_map = {
-        "a": "4",
-        "e": "3",
-        "i": "1",
-        "o": "0",
-        "s": "5"
-    }
-    translation_table = str.maketrans(replacements_map)
+nums = [10, 20, 30, 40]
 
-    return txt.translate(translation_table)
-
-print(hacker_speak("become a coder"))
+for val in nums:
+    print(val)
