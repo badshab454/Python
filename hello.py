@@ -1,6 +1,14 @@
 #python // 
-#for loop
-#print table of a number
+#Language fundamentals
+#Same parity
 
-for i in range(1, 11, 1):
-    print(i * 3)
+def parity_analysis(num):
+    return num
+
+print(parity_analysis(243))
+
+
+
+
+
+
