@@ -6,7 +6,16 @@
 
 
 def XO(txt):
-    return txt
+    txt = txt.lower()
+    x = 0
+    o = 0
+    for i in txt:
+        if i == "x":
+            x += 1
+        elif i == "o":
+            o += 1
+            
+    return x == o
   
 
-print(XO("xoox")) #true
+print(XO("dffdd")) #true
