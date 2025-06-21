@@ -1,21 +1,14 @@
 #python // 
 #Language fundamentals
-#Xs and Os
+#The Reverser!
 
 #example // 
 
+def reverse(txt):
+    reversed_txt = txt[::-1]
 
-def XO(txt):
-    txt = txt.lower()
-    x = 0
-    o = 0
-    for i in txt:
-        if i == "x":
-            x += 1
-        elif i == "o":
-            o += 1
-            
-    return x == o
-  
+    result = reversed_txt.swapcase()
 
-print(XO("dffdd")) #true
+    return reversed_txt
+
+print(reverse("Hello World"))
