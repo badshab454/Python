@@ -1,18 +1,16 @@
 #python // 
 #Language fundamentals
-#Same parity
+#Jazzify
 
-def parity_analysis(num):
-    string_num = str(num) #converted num int to str
-    sum = 0
-    for i in string_num:
-        sum += int(i)
-    return sum % 2 == num % 2
+#example // ["G", "F", "C"] => ["G7", "F7", "C7"]
 
-print(parity_analysis(243))
+def jazzify(lst):
+    if len(lst == 0):
+        return lst
+    
+    new_lst = []
 
-
-
-
-
-
+    for i in lst:
+        
+ 
+print(jazzify(["G", "F", "C"]))
