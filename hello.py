@@ -1,16 +1,12 @@
 #python // 
 #Language fundamentals
-#Jazzify
+#Xs and Os
 
-#example // ["G", "F", "C"] => ["G7", "F7", "C7"]
+#example // 
 
-def jazzify(lst):
-    if len(lst == 0):
-        return lst
-    
-    new_lst = []
 
-    for i in lst:
-        
- 
-print(jazzify(["G", "F", "C"]))
+def XO(txt):
+    return txt
+  
+
+print(XO("xoox")) #true
