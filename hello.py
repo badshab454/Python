@@ -1,17 +1,10 @@
 #python // 
 #Language fundamentals
 #Harvard CS50
-# Sum numbers
+#Add the index
 
-def sum_numbers(n):
-    lst = []
-    total_sum = 0
-    for i in range(1, n + 1):
-        lst.append(i)
-    
-    for i in lst:
-        total_sum += i
-    
-    return total_sum
+def nth_smallest(lst, n):
+  sorted_list = sorted(lst)
+  return sorted_list [n - 1]
 
-print(sum_numbers(5))        
+print(nth_smallest([1, 3, 2], 3)) # 1, 2, 3
