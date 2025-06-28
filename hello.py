@@ -1,10 +1,13 @@
 #python // 
 #Language fundamentals
 #Harvard CS50
-#Add the index
+#Remove Enemies
 
-def nth_smallest(lst, n):
-  sorted_list = sorted(lst)
-  return sorted_list [n - 1]
+def remove_enemies(names, enemies):
+    result = []
+    for i in names:
+        if i != enemies:
+            result.append(i)
+    return result
 
-print(nth_smallest([1, 3, 2], 3)) # 1, 2, 3
+print(remove_enemies(["Adam", "Emmy", "Tanya"], "Emmy"))#Adam, Tanya
