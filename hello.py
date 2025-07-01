@@ -1,13 +1,15 @@
 #python // 
 #Language fundamentals
 #Harvard CS50
-#Remove Enemies
+#Say Hello Say Bye
 
-def remove_enemies(names, enemies):
-    result = []
-    for i in names:
-        if i != enemies:
-            result.append(i)
-    return result
+def test_jackpot(result):
+    for i in range(len(result) - 1):
+        if result[i] != result[i + 1]:
+            return False
+    return True
 
-print(remove_enemies(["Adam", "Emmy", "Tanya"], "Emmy"))#Adam, Tanya
+
+print(test_jackpot(["SS", "SS", "SS", "SS"])) # True
+
+print(test_jackpot(["&&", "&", "&&&", "&&&&"])) # False
