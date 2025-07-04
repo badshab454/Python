@@ -1,13 +1,6 @@
 #python // 
 #Language fundamentals
-#Harvard CS50
-#Factorize a Number
+#for loops
 
-def factorize(num):
-    result = []
-    for i in range(1, num + 1):
-        if num % i == 0:
-            result.append(i)
-    return result
-
-print(factorize(12))
+for x in range(1, 11):
+    print(x)
