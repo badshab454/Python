@@ -1,15 +1,13 @@
 #python // 
 #Language fundamentals
 #Harvard CS50
-#Hitting the jackpot
+#Factorize a Number
 
-def test_jackpot(result):
-    for i in range(len(result) - 1):
-        if result[i] != result[i + 1]:
-            return False
-    return True
+def factorize(num):
+    result = []
+    for i in range(1, num + 1):
+        if num % i == 0:
+            result.append(i)
+    return result
 
-
-print(test_jackpot(["SS", "SS", "SS", "SS"])) # True
-
-print(test_jackpot(["&&", "&", "&&&", "&&&&"])) # False
+print(factorize(12))
