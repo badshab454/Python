@@ -1,7 +1,7 @@
 #python // 
 #Language fundamentals
 #Harvard CS50
-#Say Hello Say Bye
+#Hitting the jackpot
 
 def test_jackpot(result):
     for i in range(len(result) - 1):
