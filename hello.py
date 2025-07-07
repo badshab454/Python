@@ -1,16 +1,21 @@
 #python // 
-#Language fundamentals
-#odd up, even down
+#Control flow
+#Even odd transform
 
-def transform(lst):
+def even_odd_transform(lst, n):
+    add_to_odd = n * 2
+    minus_to_even = n * 2
     result = []
+    
     for i in lst:
         if i % 2 == 0:
-            result.append(i - 1)
+            result.append(i - minus_to_even)
         else:
-            result.append(i + 1)
-
+            result.append(i + add_to_odd)
     return result
 
 
-print(transform([1, 2, 3, 4, 1]))
+print(even_odd_transform([3, 4, 9], 3))
+
+
+
