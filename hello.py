@@ -1,21 +1,12 @@
 #python // 
-#Control flow
-#Even odd transform
+#Loops
+#Num to dashes
 
-def even_odd_transform(lst, n):
-    add_to_odd = n * 2
-    minus_to_even = n * 2
-    result = []
-    
-    for i in lst:
-        if i % 2 == 0:
-            result.append(i - minus_to_even)
-        else:
-            result.append(i + add_to_odd)
+def num_to_dashes(num):
+    result = ""
+    for i in range(num):
+        result += "-"
     return result
 
 
-print(even_odd_transform([3, 4, 9], 3))
-
-
-
+print(num_to_dashes(5))
