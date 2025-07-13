@@ -1,20 +1,11 @@
 #python // 
 #Loops
-#Num to dashes
+#Sum of the Odd Numbers
 
-def word(s):
-    word_to_num = {
-        "one": 1,
-        "two": 2,
-        "three": 3,
-        "four": 4,
-        "five": 5,
-        "six": 6,
-        "seven": 7,
-        "eight": 8,
-        "nine": 9,
-        "zero": 0
-    }
-    return word_to_num[s]
+def add_odd_to_n(n):
+    num = 0
+    for i in range(1, n + 1, 2):
+        num += i
+    return num
 
-print(word("two"))
+print(add_odd_to_n(5))
