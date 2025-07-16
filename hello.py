@@ -1,11 +1,16 @@
 #python // 
 #Loops
-#Sum of the Odd Numbers
+#Give me the even numbers
 
-def add_odd_to_n(n):
-    num = 0
-    for i in range(1, n + 1, 2):
-        num += i
-    return num
+def sum_even_nums_in_range(start, stop):
+    total_sum = 0
+    even_lst = []
+    for i in range(start, stop + 1):
+        if i % 2 == 0:
+            even_lst.append(i)
+    
+    return sum(even_lst)
 
-print(add_odd_to_n(5))
+
+print(sum_even_nums_in_range(10, 20))
+
