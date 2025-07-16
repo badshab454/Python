@@ -1,16 +1,10 @@
 #python // 
 #Loops
-#Give me the even numbers
+#is palindrom string
 
-def sum_even_nums_in_range(start, stop):
-    total_sum = 0
-    even_lst = []
-    for i in range(start, stop + 1):
-        if i % 2 == 0:
-            even_lst.append(i)
-    
-    return sum(even_lst)
+def is_palindrome(txt):
+    reversed_str = txt[::-1]
+    return reversed_str == txt
 
-
-print(sum_even_nums_in_range(10, 20))
+print(is_palindrome("mos"))
 
