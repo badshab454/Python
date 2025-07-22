@@ -1,10 +1,12 @@
 #python // 
 #Loops
-#is palindrom string
+#check factors
 
-def is_palindrome(txt):
-    reversed_str = txt[::-1]
-    return reversed_str == txt
+def check_factors(factors, num):
+    for i in factors:
+        if num % i != 0:
+            return False
+    return True
 
-print(is_palindrome("mos"))
 
+print(check_factors([2, 5, 4], 12))
