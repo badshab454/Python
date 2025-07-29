@@ -1,10 +1,13 @@
 #python // 
 #Loops
-#check factors
+#get indices
 
-def check_factors(factors, num):
-    length = len(factors)
-    return length
+def get_indices(lst, el):
+    result = []
+    for i in range(len(lst)):
+        if el == lst[i]:
+            result.append(i)
+    return result
+    
 
-
-print(check_factors([2, 5, 4], 12))
+print(get_indices([1, 2, 1, 3, 1], 1))
