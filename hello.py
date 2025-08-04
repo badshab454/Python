@@ -1,13 +1,12 @@
 #python // 
 #Loops
-#get indices
+#Sum of V0wEls
 
-def get_indices(lst, el):
-    result = []
-    for i in range(len(lst)):
-        if el == lst[i]:
-            result.append(i)
-    return result
+def is_equal(lst):
+    a, b = lst
+    sum_a = sum(int(d) for d in str(abs(a)))
+    sum_b = sum(int(d) for d in str(abs(b)))
     
+    return sum_a == sum_b
 
-print(get_indices([1, 2, 1, 3, 1], 1))
+print(is_equal([304, 401]))
