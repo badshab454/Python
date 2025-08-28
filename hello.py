@@ -1,12 +1,16 @@
 #python // 
-#Loops
-#Sum of V0wEls
+#Codeforces problemset
+#A. Bit++
 
-def is_equal(lst):
-    a, b = lst
-    sum_a = sum(int(d) for d in str(abs(a)))
-    sum_b = sum(int(d) for d in str(abs(b)))
-    
-    return sum_a == sum_b
+n = int(input().strip())
 
-print(is_equal([304, 401]))
+x = 0
+
+for _ in range(n):
+    statement = input().strip()
+
+    if '++' in statement:
+        x += 1
+    elif '--' in statement:
+        x -= 1
+print(x)
